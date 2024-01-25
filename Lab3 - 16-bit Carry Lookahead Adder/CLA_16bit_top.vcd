@@ -1,0 +1,384 @@
+$date
+	Fri Dec  1 16:04:40 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CLA_16bit_tb $end
+$var wire 16 ! S [15:0] $end
+$var wire 1 " Ovf $end
+$var wire 1 # Cout $end
+$var reg 16 $ A [15:0] $end
+$var reg 16 % B [15:0] $end
+$var reg 1 & mode $end
+$scope module dut $end
+$var wire 16 ' A [15:0] $end
+$var wire 16 ( B [15:0] $end
+$var wire 1 " OVF $end
+$var wire 1 & mode $end
+$var wire 4 ) carry_out [3:0] $end
+$var wire 16 * S [15:0] $end
+$var wire 1 # Cout $end
+$scope module cla1 $end
+$var wire 4 + C [3:0] $end
+$var wire 1 & Cin $end
+$var wire 4 , D [3:0] $end
+$var wire 1 & mode $end
+$var wire 4 - RES [3:0] $end
+$var wire 4 . P [3:0] $end
+$var wire 4 / G [3:0] $end
+$var wire 4 0 D_inv [3:0] $end
+$var wire 1 1 Carry $end
+$var wire 4 2 C_out [4:1] $end
+$upscope $end
+$scope module cla2 $end
+$var wire 4 3 C [3:0] $end
+$var wire 1 4 Cin $end
+$var wire 4 5 D [3:0] $end
+$var wire 1 & mode $end
+$var wire 4 6 RES [3:0] $end
+$var wire 4 7 P [3:0] $end
+$var wire 4 8 G [3:0] $end
+$var wire 4 9 D_inv [3:0] $end
+$var wire 1 : Carry $end
+$var wire 4 ; C_out [4:1] $end
+$upscope $end
+$scope module cla3 $end
+$var wire 4 < C [3:0] $end
+$var wire 1 = Cin $end
+$var wire 4 > D [3:0] $end
+$var wire 1 & mode $end
+$var wire 4 ? RES [3:0] $end
+$var wire 4 @ P [3:0] $end
+$var wire 4 A G [3:0] $end
+$var wire 4 B D_inv [3:0] $end
+$var wire 1 C Carry $end
+$var wire 4 D C_out [4:1] $end
+$upscope $end
+$scope module cla4 $end
+$var wire 4 E C [3:0] $end
+$var wire 1 F Cin $end
+$var wire 4 G D [3:0] $end
+$var wire 1 & mode $end
+$var wire 4 H RES [3:0] $end
+$var wire 4 I P [3:0] $end
+$var wire 4 J G [3:0] $end
+$var wire 4 K D_inv [3:0] $end
+$var wire 1 L Carry $end
+$var wire 4 M C_out [4:1] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 M
+0L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+0F
+b0 E
+b0 D
+0C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+0=
+b0 <
+b0 ;
+0:
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+04
+b0 3
+b110 2
+01
+b10 0
+b10 /
+b101 .
+b1001 -
+b10 ,
+b111 +
+b1001 *
+b0 )
+b10 (
+b111 '
+0&
+b10 %
+b111 $
+0#
+0"
+b1001 !
+$end
+#10
+b111 M
+1"
+1F
+1C
+b1111 D
+1=
+1:
+b1111 ;
+14
+b111 )
+11
+b1111 2
+b1 /
+b0 -
+b0 6
+b0 ?
+b1000000000000000 !
+b1000000000000000 *
+b1000 H
+b1110 .
+b1111 7
+b1111 @
+b111 I
+b1 0
+b1 ,
+b1111 +
+b1111 3
+b1111 <
+b111 E
+b1 %
+b1 (
+b111111111111111 $
+b111111111111111 '
+#20
+1F
+1C
+b1111 D
+b0 ?
+1=
+1:
+0"
+b1111 ;
+1#
+b0 6
+1L
+14
+b1111 M
+b1111 )
+11
+b1110 2
+b0 -
+b0 !
+b0 *
+b0 H
+b10 /
+b1100 .
+b1111 I
+b10 0
+b10 ,
+b1110 +
+b1111 E
+b10 %
+b10 (
+b1111111111111110 $
+b1111111111111110 '
+#30
+1"
+04
+01
+0=
+0F
+1#
+0:
+0C
+b1000 )
+1L
+b0 2
+b0 ;
+b0 D
+b1000 M
+b1000 J
+b0 -
+b0 6
+b0 ?
+b0 !
+b0 *
+b0 H
+b0 /
+b0 .
+b0 7
+b0 @
+b0 I
+b0 0
+b1000 K
+b0 ,
+b1000 G
+b0 +
+b0 3
+b0 <
+b1000 E
+b1000000000000000 %
+b1000000000000000 (
+b1000000000000000 $
+b1000000000000000 '
+#40
+0F
+0C
+b0 D
+0=
+0:
+b0 ;
+0"
+04
+0#
+01
+b0 )
+0L
+b0 M
+b1 2
+b1111 6
+b1111 ?
+b1111 7
+b1111 @
+b1101 .
+b1111 H
+b0 J
+b1111 I
+b1111 9
+b1111 B
+b1101 0
+b1111 K
+b1111111111111110 !
+b1111111111111110 *
+b1110 -
+b10 ,
+b0 G
+b0 E
+1&
+b10 %
+b10 (
+b0 $
+b0 '
+#50
+1"
+0#
+14
+1=
+1F
+0L
+11
+1:
+b111 )
+1C
+b1111 2
+b1111 ;
+b1111 D
+b111 M
+b0 -
+b0 6
+b0 ?
+b1000000000000000 !
+b1000000000000000 *
+b1000 H
+b0 0
+b0 9
+b0 B
+b0 K
+b0 /
+b1111 .
+b0 8
+b1111 7
+b0 A
+b1111 @
+b0 J
+b111 I
+b1111 ,
+b1111 5
+b1111 >
+b1111 G
+b1111 +
+b1111 3
+b1111 <
+b111 E
+b1111111111111111 %
+b1111111111111111 (
+b111111111111111 $
+b111111111111111 '
+#60
+1#
+1L
+14
+0"
+11
+1=
+1F
+1:
+b1111 )
+1C
+b1001 2
+b1111 ;
+b1111 D
+b1111 M
+b1001 /
+b111 -
+b0 6
+b0 ?
+b111 !
+b111 *
+b0 H
+b1101 0
+b1111 9
+b1111 B
+b1111 K
+b100 .
+b1111 7
+b1111 @
+b1111 I
+b10 ,
+b0 5
+b0 >
+b0 G
+b1001 +
+b0 3
+b0 <
+b0 E
+b10 %
+b10 (
+b1001 $
+b1001 '
+#70
+b1000 M
+1"
+0F
+0C
+b0 D
+b1111 ?
+0=
+0:
+b0 ;
+b1111 6
+04
+b1000 )
+01
+b1 2
+b1111 -
+b111111111111111 !
+b111111111111111 *
+b111 H
+b1 /
+b1100 .
+b1000 J
+b111 I
+b1 +
+b1000 E
+b1000000000000001 $
+b1000000000000001 '
+#80
